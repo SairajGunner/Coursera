@@ -1,0 +1,63 @@
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+.navbar {
+    min-height: 75px;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    padding-left: 0px;
+}
+  
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Comic Neue', cursive;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section {
+    margin: 15px;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: lightgrey;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-left: 15px;
+    }
+}
